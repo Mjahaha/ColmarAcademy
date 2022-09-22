@@ -1,0 +1,18 @@
+html {
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    display: flex;
+    display: inline-flex;
+}
+
+header img {
+    float: left;
+    margin: 0px 0px 0px 24px;
+}
+
+#academy {
+    color: grey;
+}
