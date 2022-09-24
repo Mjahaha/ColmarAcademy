@@ -81,3 +81,22 @@ li {
     text-align: center;
     font-weight: 100;
 }
+
+/* practice dvi formatting */
+
+.practice {
+    display: block;
+    background-color: white;
+    padding: 32px 24px;
+    align-items: center;
+}
+
+.practice img {
+    height: auto;
+    margin-right: 24px;
+}
+
+#left {
+    display: flex;
+    width: 60%;
+}
