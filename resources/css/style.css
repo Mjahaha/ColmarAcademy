@@ -30,12 +30,12 @@ header {
     height: 64px;
     font-size: 1.5rem;
     background-color: white;
-    padding: 0px 24px;
 }
 
 header div {
     display: inline-flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 header img {
@@ -95,6 +95,7 @@ li {
     width: 100%;
     height: auto;
     margin-right: 24px;
+    display: block;
 }
 
 #left {
@@ -103,13 +104,29 @@ li {
 }
 
 #right {
-    display: block;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 40%;
 }
 
 .box {
     display: flex;
+    margin: 16px;
+    width: 100%;
+}
+
+.box img {
+    width: 35%;
+    height:fit-content;
 }
 
 .boxText {
-    display: block;
+    line-height: 1.5em;
 }
+
+.link {
+    color: #9dc2ec;
+}
+
