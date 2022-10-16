@@ -1,5 +1,5 @@
 html {
-    background-color: bisque;
+    background-color: #F3F5F5;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     font-weight: bold;
@@ -19,7 +19,7 @@ p {
     font-size: 1.5rem;
 }
 
-/* Header formatting */
+/* Header section */
 
 header {
     display: flex;
@@ -29,7 +29,6 @@ header {
     width: 100%;
     height: 64px;
     font-size: 1.5rem;
-    background-color: white;
 }
 
 header div {
@@ -56,7 +55,7 @@ li {
     margin: 0px 8px;
 }
 
-/* Learn div formatting */
+/* Learn div section */
 
 .learn {
     display: inline-flex;
@@ -82,11 +81,10 @@ li {
     font-weight: 100;
 }
 
-/* practice dvi formatting */
+/* practice div section */
 
 .practice {
     display: flex;
-    background-color: white;
     padding: 32px 24px;
     align-items: center;
 }
@@ -130,3 +128,94 @@ li {
     color: #9dc2ec;
 }
 
+/* Start learning div section*/
+
+.startLearning {
+    background-color: #D8D8D8;
+    padding: 32px 24px;
+    text-align: center;
+}
+
+.slboxes {
+    padding: 32px 72px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.slbox {
+    background-color: #F3F5F5;
+    margin: 16px;
+    width: 350px;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.slbox img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.slboxtext {
+    padding: 24px;
+}
+
+
+/* Thesis exhibit section*/
+
+.thesis {
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #b1b1b1;
+
+}
+
+.thesisContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.videoSection {
+    width: 60%;
+    height: auto;
+    margin: 24px;
+    text-align: left;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.thesisBoxes {
+    display: block;
+    width: 40%;
+    padding: 16px;
+    text-align: left;
+}
+
+.thesisBox1 {
+    display: flex;
+    background-color: #D8D8D8;
+}
+.thesisBox2 {
+    display: flex;
+}
+
+.thesisBoxes img {
+    padding: 16px;
+    width: 35%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.footer p {
+    font-size: 1rem;
+}
