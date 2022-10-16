@@ -46,11 +46,16 @@ header img {
     color: grey;
 }
 
-ul {
+#headerWords {
     list-style: none;
 }
 
-li {
+.headerIcons {
+    display: none;
+    list-style: none;
+}
+
+#headerWords li {
     display: inline-flex;
     margin: 0px 8px;
 }
@@ -219,3 +224,62 @@ video {
 .footer p {
     font-size: 1rem;
 }
+
+/* Adding media sections to change up for phone */
+
+@media only screen and (max-width: 470px) {
+    
+    /* Getting the header suitable */
+
+    .logo {
+        display: none;
+    }
+
+    #headerWords {
+        display: none;
+    }
+
+    .headerIcons {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding-inline-start: 0px;
+    }
+
+    nav {
+        width: 100%;
+    }
+    
+    /* Getting the learn section sorted */
+
+    .learn {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .learn img {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+    }
+
+    #learntext {
+        width: 100%;
+    }
+
+    #start {
+        margin: 24px 16px 32px 16px;
+        background-color: #8d8d8d;
+        font-weight: bold;
+    }
+
+    #start p {
+        margin: 4px;
+        color: #efefef;
+    }
+
+}
+
