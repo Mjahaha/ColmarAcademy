@@ -1,8 +1,8 @@
 html {
     background-color: #F3F5F5;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
 }
 
 /* General Formatting */
@@ -233,11 +233,20 @@ video {
     width: 35%;
 }
 
+/* footer formatting */
+
 .footer {
     display: flex;
     justify-content: space-between;
     list-style: none;
     font-size: 1rem;
+    width: 100%;
+}
+
+.footer li {
+    display: inline-flex;
+    align-content: space-between;
+    width: 100%;
 }
 
 .footer p {
@@ -341,7 +350,72 @@ video {
         margin: 0px;
     }
 
+    /* Getting the learning section sorted */
 
+    .startLearning {
+        background-color: #F3F5F5;
+        border-top: #8d8d8d 1px solid;
+        padding: 0px;
+        margin-bottom: 32px;
+    }
+
+    .slboxes {
+        display: block;
+        padding: 0px;
+    }
+
+    .slbox {
+        background-color: #D8D8D8;
+        padding: 16px 16px 24px 16px;
+        margin: 8px;
+        width: auto;
+    }
+
+    .slboxtext {
+        padding: 0px;
+    }
+
+    .slbox p {
+        display: none;
+    }
+
+    .slbox img {
+        display: none;
+    }
+
+    .slbox h5 {
+        margin: 0px;
+    }
+
+    /* Getting the thesis section sorted */
+
+    .thesis {
+        border-top: #8d8d8d 1px solid;
+    }
+
+    .thesis h1 {
+        margin: 32px 0px 16px 0px;
+    }
+
+    .videoSection {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .videoSection h5,
+    .videoSection p {
+        display: none;
+    }
+
+    .thesisBoxes {
+        display: none;
+    }
+
+    /* footer */
+
+    .footer nav {
+        display: none;
+    }
 
 }
 
